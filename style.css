@@ -85,6 +85,15 @@ body {
 	padding-bottom: 8px;
 }
 
+.xSkillsLeft {
+	width: 40%;
+}
+
+.xSkillsLeft, .xSkillsRight {
+	display: inline-block;
+	margin-top: -15px;
+}
+
 .companyNameSide {
 	width: 25%;
 	float: left;
@@ -138,6 +147,8 @@ body {
 
 .languages {
 	width: 18%;
+	margin-left: -20px;
+	margin-bottom: 10px;
 }
 
 .languages, .languageAssessment {
@@ -177,8 +188,9 @@ body {
 	font-weight: bold;
 }
 
-/*---------------------------------
-other: colors/ styles------------*/
+/*-----------------------------------
+other: colors/ styles----------------
+-----------------------------------*/
 
 .darkColor {
 	color: #30209a;
