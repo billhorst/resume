@@ -1,7 +1,7 @@
 body {
 	background:
-	linear-gradient(135deg, white 22px, #F6F0FF 22px, #F6F0FF 24px, transparent 24px, transparent 67px, #F6F0FF 67px, #F6F0FF 69px, transparent 69px),
-	linear-gradient(225deg, white 22px, #F6F0FF 22px, #F6F0FF 24px, transparent 24px, transparent 67px, #F6F0FF 67px, #F6F0FF 69px, transparent 69px)0 64px;
+	linear-gradient(135deg, white 22px, #FAF7FF 22px, #FAF7FF 24px, transparent 24px, transparent 67px, #FAF7FF 67px, #FAF7FF 69px, transparent 69px),
+	linear-gradient(225deg, white 22px, #FAF7FF 22px, #FAF7FF 24px, transparent 24px, transparent 67px, #FAF7FF 67px, #FAF7FF 69px, transparent 69px)0 64px;
 	background-color:white;
 	background-size: 64px 128px;
 }
@@ -34,6 +34,7 @@ body {
 .info {
 	padding-bottom: 15px;
 	margin-top: -10px;
+	text-align: center;
 }
 
 .address {
@@ -41,7 +42,6 @@ body {
 }
 
 .emailAddress {
-	float: right;
 	padding-right: 10px;
 }
 
