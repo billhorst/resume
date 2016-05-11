@@ -34,12 +34,12 @@ body {
 .info {
 	padding-bottom: 15px;
 	margin-top: -10px;
-	text-align: center;
+	text-align: right;
 }
 
-.address {
+/*.address {
 	padding-left: 10px;
-}
+}*/
 
 .emailAddress {
 	padding-right: 10px;
