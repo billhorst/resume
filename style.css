@@ -37,12 +37,18 @@ body {
 	text-align: right;
 }
 
-/*.address {
-	padding-left: 10px;
-}*/
+.info a {
+	text-decoration: none;
+	color: black;
+}
+
+.portfolio {
+	padding-right: 10px;
+}
 
 .emailAddress {
-	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
 }
 
 /*technical profile------------------------------*/
@@ -117,8 +123,8 @@ body {
 /*education and development-----------------------*/
 /*------------------------------------------------*/
 .educationAndDevelopment {
-	border-left: solid black 2px;
-	border-right: solid black 2px;
+/*	border-left: solid black 2px;
+	border-right: solid black 2px;*/
 	border-top: solid black 2px;
 }
 
@@ -159,7 +165,8 @@ body {
 /*coursework--------------------------------------*/
 /*------------------------------------------------*/
 .coursework {
-	border: solid black 2px;
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
 }
 
 .courseworkTitle {
