@@ -42,6 +42,10 @@ body {
 	color: black;
 }
 
+.info a:hover {
+	text-decoration: underline;
+}
+
 .portfolio {
 	padding-right: 10px;
 }
