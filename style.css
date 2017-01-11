@@ -139,7 +139,7 @@ body {
 	padding-bottom: 8px;
 }
 
-.schoolSide, .languagesSide {
+/*.schoolSide, .languagesSide {
 	margin-top: -15px;
 	display: inline-block;
 	width: 48%;
@@ -149,7 +149,7 @@ body {
 
 .schoolSide {
 	float: left;
-}
+}*/
 
 .languagesTitle {
 	font-weight: bold;
@@ -168,7 +168,7 @@ body {
 
 /*coursework--------------------------------------*/
 /*------------------------------------------------*/
-.coursework {
+/*.coursework {
 	border-top: solid black 2px;
 	border-bottom: solid black 2px;
 }
@@ -197,7 +197,7 @@ body {
 
 .schoolTitle {
 	font-weight: bold;
-}
+}*/
 
 /*-----------------------------------
 other: colors/ styles----------------
@@ -222,4 +222,22 @@ other: colors/ styles----------------
 
 .styleSans-serif {
 	font-family: Verdana;
+}
+
+/*------------------------------*/
+
+/*changes after AWS cert: took out classes and added cert*/
+
+.newEdAndDev {
+	text-align: center;
+	padding-right: 30px;
+	border-bottom: solid black 2px;
+}
+
+.newEdAndDev li {
+	list-style-type: none;
+}
+
+#awsIcon {
+	width: 30%;
 }
