@@ -96,12 +96,11 @@ body {
 }
 
 .xSkillsLeft {
-	width: 40%;
+	width: 100%;
 }
 
 .xSkillsLeft, .xSkillsRight {
-	display: inline-block;
-	margin-top: -15px;
+	margin-top: 0px;
 }
 
 .companyNameSide {
@@ -238,6 +237,36 @@ other: colors/ styles----------------
 	list-style-type: none;
 }
 
-#awsIcon {
+/*----------------------------------*/
+
+/*-----changes after Java cert on 2/19: changed technical profile, added summary and updated Premier's experience--------*/
+
+.summaryParagraph {
+	font-weight: bold;
+	text-align: justify;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.expertiseList {
+	font-weight: bold;
+	border-bottom: solid black 2px;
+	padding-bottom: 20px;
+}
+
+.certificationIcons {
+	width: 100%;
+}
+
+.certificationIconLI {
 	width: 30%;
+	display: inline-block; 
+}
+
+#javaCertImg {
+	width: 100%;
+}
+
+#oracleCertImg {
+	width: 70%;
 }
